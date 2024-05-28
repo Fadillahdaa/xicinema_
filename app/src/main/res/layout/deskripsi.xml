@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="277dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="77dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/Panah"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar7"
+        android:layout_width="375dp"
+        android:layout_height="410dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="278dp"
+        android:layout_height="302dp"
+        app:srcCompat="@drawable/herisusanto"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="160dp"
+        android:layout_height="27dp"
+        android:text="Harry Potter"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="506dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horror I Magic"
+        android:textColor="#473D3D"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="533dp" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="221dp"
+        android:layout_height="160dp"
+        app:srcCompat="@drawable/bintang"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="40dp"
+        android:layout_height="17dp"
+        android:text="4/5"
+        android:textColor="#EFEAEA"
+        tools:layout_editor_absoluteX="370dp"
+        tools:layout_editor_absoluteY="533dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar8"
+        android:layout_width="370dp"
+        android:layout_height="184dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="330dp"
+        android:layout_height="151dp"
+        android:text="Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's conflict with Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic, and subjugate all wizards and Muggles (non-magical people)."
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="613dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

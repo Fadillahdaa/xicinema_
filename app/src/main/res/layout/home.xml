@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar3"
+        android:layout_width="235dp"
+        android:layout_height="348dp"
+        android:layout_marginStart="276dp"
+        android:background="#4A676060"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="234dp"
+        android:layout_height="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Best Destination"
+        android:textColor="#F6F6F6"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View all"
+        android:textColor="#1929CD"
+        tools:layout_editor_absoluteX="322dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar2"
+        android:layout_width="171dp"
+        android:layout_height="47dp"
+        android:background="#4FFBFBFB"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="34dp" />
+
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="92dp"
+        android:layout_height="26dp"
+        android:text="Leonardo"
+        android:textColor="#FBFBFB"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/lonceng"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="47dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/orang"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutNavigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+    </LinearLayout>
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar3"
+        android:layout_width="230dp"
+        android:layout_height="348dp"
+        android:layout_marginStart="28dp"
+        android:background="#4A676060"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dilan 1990"
+        android:textColor="#FAF6F6"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="598dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Romance"
+        android:textColor="#A6A6A6"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="621dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horor | Action"
+        android:textColor="#A6A6A6"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="322dp"
+        tools:layout_editor_absoluteY="621dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="236dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:progressTint="#BC750D"
+        android:rating="5"
+        android:scaleX="0.2"
+        android:scaleY="0.3"
+        android:scrollbarSize="5dp"
+        android:stepSize="5"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="589dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5.0"
+        android:textColor="#B5A9A9"
+        android:textSize="8sp"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="606dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="154dp"
+        android:layout_height="535dp"
+        app:srcCompat="@drawable/Siksa_Neraka"
+        tools:layout_editor_absoluteX="451dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="189dp"
+        android:layout_height="236dp"
+        app:srcCompat="@drawable/Dilan"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="353dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="Siksa Neraka"
+        android:textColor="#FAF6F6"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="598dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="173dp"
+        android:layout_height="236dp"
+        app:srcCompat="@drawable/Siksa"
+        tools:layout_editor_absoluteX="276dp"
+        tools:layout_editor_absoluteY="353dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar4"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="#CDE8E7E7"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="782dp" />
+
+    <SearchView
+        android:layout_width="59dp"
+        android:layout_height="67dp"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="782dp">
+
+    </SearchView>
+
+
+</HorizontalScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

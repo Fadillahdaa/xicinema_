@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="122dp"
+        android:layout_height="33dp"
+        android:text="Search"
+        android:textColor="#F6F5F5"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.608"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:textColor="#051B8C"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="333dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar"
+        android:layout_width="332dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="36dp"
+        android:background="#4C4C4C"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="39dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mic" />
+
+    <SearchView
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="#F7FFFFFF"
+        android:backgroundTint="#F6F1F1"
+        android:voiceIcon="@drawable/microfon"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar6"
+        android:layout_width="176dp"
+        android:layout_height="198dp"
+        android:layout_marginStart="16dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="151dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="48dp"
+        android:text="Niladri Reservoir&#xA;Tekergat, Sunamgnj&#xA;$894/Person"
+        android:textColor="#FBFBFB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.489" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar6"
+        android:layout_width="176dp"
+        android:layout_height="198dp"
+        android:layout_marginStart="204dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="28dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.493"
+        app:srcCompat="@drawable/placee"
+        tools:layout_editor_absoluteX="24dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="151dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="228dp"
+        android:text="Niladri Reservoir&#xA;Tekergat, Sunamgnj&#xA;$894/Person"
+        android:textColor="#FBFBFB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.488" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar6"
+        android:layout_width="176dp"
+        android:layout_height="198dp"
+        android:layout_marginStart="16dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="496dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar6"
+        android:layout_width="176dp"
+        android:layout_height="198dp"
+        android:layout_marginStart="204dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="496dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="163dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.366"
+        app:srcCompat="@drawable/herisusanto" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="126dp"
+        android:layout_height="122dp"
+        app:srcCompat="@drawable/joker"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="128dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/beauty"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="128dp"
+        android:layout_height="142dp"
+        app:srcCompat="@drawable/Marvel"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="409dp"
+        android:layout_height="246dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/keyboard"
+        tools:layout_editor_absoluteY="606dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="140dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:text="Search Place"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="28dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.493"
+        app:srcCompat="@drawable/placee"
+        tools:layout_editor_absoluteX="24dp" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="31dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="412dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/placee" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
